@@ -17,6 +17,7 @@ end
 def select_youngest_bear_and_returns_name_and_age
   "SELECT name, MIN(age) FROM bears;"
 end
+#adding comment to attempt with github error correction
 
 def selects_most_prominent_color_and_returns_with_count
   "SELECT color,COUNT(*) FROM bears GROUP BY color ORDER BY count(*) DESC LIMIT 1;"
